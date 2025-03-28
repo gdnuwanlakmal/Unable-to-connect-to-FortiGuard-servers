@@ -1,4 +1,5 @@
 # Troubleshoot FortiGate: Unable to Connect to FortiGuard Servers
+After upgrading the FortiGate firmware, the device is unable to connect to the FortiGuard servers. This issue occurs because the settings for cloud-communication and include-default-servers might have been disabled in the previous firmware version and are required to allow proper communication with FortiGuard.
 
 ### The following error appears under Dashboard -> Status -> Licenses: 
 ![CHEESE!](/Images/GetImage.png)
